@@ -1,6 +1,7 @@
 # Elastic SIEM Project – Log Monitoring & Threat Detection
 
-Overview
+**Overview**
+
 This project demonstrates the use of **Elastic Cloud and Kibana** as a Security Information and Event Management (SIEM) solution.  
 The objective was to simulate real-world monitoring by ingesting logs, creating detection rules, generating alerts, and visualizing security events through dashboards.
 
@@ -8,14 +9,14 @@ By leveraging Elastic SIEM, this project showcases how modern security teams can
 
 
 
-Tools & Technologies
+**Tools & Technologies**
 - **Elastic Cloud (Elasticsearch & Kibana)**
 - **Beats/Log sources** (system logs, security events, simulated attacks)
 - **Detection Rules** for threat scenarios
 - **Dashboards** for visualization and monitoring
 
 
- Project Workflow
+ **Project Workflow**
 1. **Log Ingestion**  
    - Connected log sources to Elastic Cloud.  
    - Indexed system and security logs for monitoring.  
@@ -32,7 +33,7 @@ Tools & Technologies
    - Highlighted alerts and patterns in a centralized view.  
 
 
-Key Outcomes
+**Key Outcomes**
 - Implemented a functioning SIEM using Elastic Cloud and Kibana.  
 - Built and tested detection rules simulating real-world cyber threats.  
 - Gained hands-on experience in **log monitoring, rule creation, and alerting**.  
@@ -40,13 +41,14 @@ Key Outcomes
 
 
 
-Conclusion
+**Conclusion**
+
 This project demonstrates how SIEM solutions like Elastic are critical in securing modern infrastructures.  
 By simulating log ingestion, detection, and alerting, the project reflects practical cybersecurity skills while contributing toward building a safer digital environment.
 
----
 
-Future Improvements
+
+**Future Improvements**
 - Automate log collection using Filebeat/Winlogbeat.  
 - Integrate with external alerting systems (Slack, Email, PagerDuty).  
 - Expand detection rules to cover advanced threats (malware, insider threats, exfiltration).  
